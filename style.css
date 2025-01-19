@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-body{
+body {
     max-width: 1330px;
 }
 
@@ -234,6 +234,7 @@ main {
 .feature-container {
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 100px;
 }
 
 .feature-title {
@@ -261,7 +262,54 @@ main {
     padding: 10px 24px;
 }
 
+/* footer */
+footer {
+    background: rgb(24, 24, 54);
+    width: 100%;
+    margin: 0;
+    height: 206px;
+    width: 80%;
 
+    margin: 0 auto;
+
+}
+
+.footer-title {
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 1.5rem;
+    padding-top: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.footer-description {
+    color: rgb(217, 219, 225);
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.footer-last-description {
+    color: rgb(217, 219, 225);
+    font-family: poppins;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.footer-icon{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#icon{
+    padding-right: 30px;
+    color: white;
+}
 /* small device responsive */
 @media screen and (max-width:576px) {
     header {
@@ -408,12 +456,16 @@ main {
 
         padding-right: 0px;
     }
-    .feature-container{
+
+    .feature-container {
         flex-direction: column;
+        max-width: 350px;
     }
-    .left-img{
+
+    .left-img {
         width: 100%;
     }
+
     .feature-title {
         color: rgb(10, 8, 38);
         font-family: Poppins;
@@ -421,6 +473,7 @@ main {
         text-align: center;
         font-weight: 700;
     }
+
     .feature-description {
         color: rgb(108, 108, 108);
         font-family: Poppins;
@@ -429,6 +482,11 @@ main {
         height: 138px;
     }
 
+    .feature-btn {
+        width: calc(());
+        margin-left: 29px;
+        margin-top: 30px;
+    }
 
 
 
